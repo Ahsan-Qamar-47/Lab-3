@@ -12,4 +12,5 @@ class Program
     System.Console.WriteLine($"The sum of {a} and {b} is {a + b}");
     System.Console.WriteLine($"The difference of {a} and {b} is {a - b}");
     System.Console.WriteLine($"The product of {a} and {b} is {a * b}");
+    System.Console.WriteLine($"The division of {a} and {b} is {a / b}");
 }
