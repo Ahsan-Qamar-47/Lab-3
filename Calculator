@@ -1,1 +1,8 @@
-
+class Program
+{
+    System.Console.WriteLine("Enter Your Name : ");
+    string name = Console.ReadLine();
+    System.Console.WriteLine("Enter Your Roll Number:");
+    string RollNumber = Console.ReadLine();
+    System.Console.WriteLine($"Your name is {name} and Roll number is {RollNumber}");
+}
