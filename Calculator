@@ -5,4 +5,12 @@ class Program
     System.Console.WriteLine("Enter Your Roll Number:");
     string RollNumber = Console.ReadLine();
     System.Console.WriteLine($"Your name is {name} and Roll number is {RollNumber}");
+    System.Console.WriteLine("Enter a number : ");
+    int a = int.Parse(Console.ReadLine());
+    System.Console.WriteLine("Enter another number : ");
+    int b = int.Parse(Console.ReadLine());
+    System.Console.WriteLine($"The sum of {a} and {b} is {a + b}");
+    System.Console.WriteLine($"The difference of {a} and {b} is {a - b}");
+    System.Console.WriteLine($"The product of {a} and {b} is {a * b}");
+    System.Console.WriteLine($"The division of {a} and {b} is {a / b}");
 }
